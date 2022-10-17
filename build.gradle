@@ -60,6 +60,13 @@ dependencies {
     implementation project(':v1_19_2')
 }
 
+project('v1_19_2') {
+    dependencies {
+        compileOnly 'org.spigotmc:spigot-api:1.19.2-R0.1-SNAPSHOT'
+    }
+}
+
+
 processResources {
     def props = [version: version]
     inputs.properties props
