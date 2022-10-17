@@ -1,0 +1,7 @@
+name: MolruLib
+version: '${version}'
+main: com.molruexception.molrulib.MolruLib
+api-version: 1.19
+authors: [ MolruException ]
+description: Powerful library for minecraft plugin developer
+website: molruexception.com
